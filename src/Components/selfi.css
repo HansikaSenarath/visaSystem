@@ -1,0 +1,84 @@
+.selfi-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  
+  .left-side {
+    flex: 2;
+    margin-left: 140px;
+    align-content: center; /* Add margin to create a gap between left and right */
+  }
+  
+  .right-side {
+    flex: 1;
+  }
+  
+  .small-text {
+    font-size: 12px;
+    color: #ffffff;
+    background-color: rgb(69, 115, 184); /* Adjust the background color as needed */
+    display: inline-block; /* Ensure the background color only covers the text, not the entire line */
+    padding: 8px; 
+    border-radius: 12px;
+   
+  }
+  .upload {
+    font-size: 26px; /* Adjust the font size as needed */
+    color: #000000; /* Adjust the color as needed */
+  }
+  .photo{
+    font-size: 12px; /* Adjust the font size as needed */
+    color: #0000009d;
+  
+  
+  }
+  .loselfie-image {
+    width: 100%; /* Make the image fill the container width */
+    max-width: 200px; /* Limit the max-width for responsiveness */
+    margin-top: 20px;
+  }
+  
+  .quick-tips {
+    margin-top: 20px;
+   
+  }
+  
+  .quick-tips-label {
+    font-style: 24px;
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  .proceed-button {
+    margin-top: 20px;
+    padding: 15px 70px; /* Adjust the padding as needed (top/bottom, left/right) */
+    background-color: #5057ea;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .right-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .right-side h1 {
+    color: #030303;
+    font-size: 22px;
+  }
+  
+  .close-up-tips {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .close-up-tips li {
+    margin-bottom: 10px;
+    color: #555;
+  }
+  

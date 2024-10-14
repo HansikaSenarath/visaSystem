@@ -1,0 +1,91 @@
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    padding: 10px; /* Reduced padding */
+  }
+  
+  .left-side {
+    width: 70%; /* Reduced width */
+    background-color: white;
+    padding: 10px; /* Reduced padding */
+  }
+  
+  .right-side {
+    width: 40%; /* Reduced width */
+    background-color: #e0e0e0;
+    padding: 10px; /* Reduced padding */
+  }
+  
+  .blue-highlight {
+    color: #5854ec;
+  }
+  
+  .name-fields {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px; /* Reduced margin */
+    width: 28%; /* Adjusted width */
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 5px; /* Reduced padding */
+    margin-bottom: 5px; /* Reduced margin */
+  }
+  
+  .continue-button {
+    background-color: #5854ec;
+    color: white;
+    padding: 8px; /* Adjusted padding */
+    border: none;
+    cursor: pointer;
+  }
+  .submitted-images {
+    display: flex;
+    align-items: center;
+  }
+  
+  .document-image {
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+  }
+  
+  .submit-documents-button {
+    margin-top: 20px;
+    padding: 15px 70px; /* Adjust the padding as needed (top/bottom, left/right) */
+    background-color: #5057ea;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .progresstext{
+    font-size: 12px;
+    color:#5057ea ;
+  }
+  .blue-highlight{
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    background-color: #e0e7ff; /* Adjust the background color as needed */
+    display:inline-flex; /* Ensure the background color only covers the text, not the entire line */
+    padding: 8px; 
+  }
+  .date{
+    font-size: 12px;
+    color: #ffffff;
+    background-color: rgb(69, 115, 184); /* Adjust the background color as needed */
+    display: inline; /* Ensure the background color only covers the text, not the entire line */
+    padding: 8px; 
+    border-radius: 12px;
+    
+  }
+  /* Add styles for other form elements as needed */
+  

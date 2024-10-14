@@ -1,0 +1,54 @@
+.passport-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .left-side {
+    flex: 2;
+  }
+  
+  .right-side {
+    flex: 1;
+  }
+  
+  .upload-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .passport {
+    color: black;
+    font-size: 24px;
+  }
+  
+  .photos {
+    color: #554c4c;
+    font-size: 12px;
+    margin-left: 30px;
+  }
+  
+  .passport-image {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 20px;
+  }
+  
+  .proceed-button{
+  background-color: #5854ec;
+  color: white;
+  padding: 10px 20px; /* Adjust the padding as needed */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  max-width: 150px; /* Add a max-width as needed */
+  }
+  
+  .right-side .box {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  

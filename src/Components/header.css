@@ -1,0 +1,68 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5854ec;
+    padding: 20px;
+  }
+  
+  .left-corner {
+    display: flex;
+    align-items: center;
+  }
+  
+  .right-corner {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 150px;
+    height: 100px;
+    margin-right: 40px;
+  }
+  
+  .on-time-granted {
+    margin-right: 40px;
+    font-size: 10px;
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .country-code {
+    font-size: 14px;
+    margin-right: 25px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .user-icon {
+    margin-right: 50px;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .additional-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px; /* Adjust the margin as needed */
+  }
+  
+  .visa-on-time {
+    font-size: 18px;
+    color: lightgreen;
+  }
+  
+  .get-visas {
+    font-size: 18px; /* Adjust the size as needed */
+    color: white;
+  }
+  .visa-global {
+    font-size: 24px; /* Adjust the size as needed */
+    font-weight: bold; /* You can adjust the font weight */
+    color: white;
+    margin-right: 20px; /* Adjust the margin as needed */
+  }
+  

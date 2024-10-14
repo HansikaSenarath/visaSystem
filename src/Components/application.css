@@ -1,0 +1,101 @@
+.application-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .left-side {
+    width: 70%; /* Adjust the width as needed */
+  }
+  
+  .right-side {
+    width: 30%; /* Adjust the width as needed */
+    position: relative;
+  }
+  
+  .application-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .authorized-text {
+    color: rgb(127, 127, 194);
+  }
+  
+  .apply-now-text {
+    font-size: 26px;
+    
+  }
+  
+  .application-date {
+    font-size: 24px;
+    color: #5854ec;
+    font-weight: bold;
+  }
+  
+  .application-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .application-info {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffffff;
+    text-align: center;
+    background-color: rgb(69, 115, 184); 
+  }
+  
+  .travelers-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .travelers-text {
+    font-weight: bold;
+  }
+  
+  .increase-icon {
+    cursor: pointer;
+  }
+  
+  .travelers-count {
+    display: flex;
+    align-items: center;
+  }
+  
+  .hr-line {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 15px 0;
+  }
+  
+  .price-section,
+  .total-amount-section {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .start-application-button {
+    background-color: #ffb800;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .start-application-image {
+    margin-top: 10px;
+    margin-left: 30px;
+    bottom: 0;
+    right: 0;
+    width: 50%; /* Adjust the width as needed */
+    height: auto;
+  }
+  

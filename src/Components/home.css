@@ -1,0 +1,42 @@
+.home-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .category-row {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px; /* Adjust spacing between rows */
+  }
+  
+  .category {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 255px; /* Increase the width */
+  }
+  
+  .category-image {
+    width: 100%;
+    height: 250px; /* Adjust the height as needed */
+    object-fit: cover;
+    border-radius: 10px 10px 0 0; /* Add border-radius to top corners */
+  }
+  
+  .category-country {
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: start;
+  }
+  
+  .category-date {
+    color: #555;
+    margin-top: 5px;
+    text-align: start;
+  }
+  
